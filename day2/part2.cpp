@@ -55,6 +55,9 @@ int main(int argc, char* argv[]) {
         mp["red"] = red;
       }
       
+
+      // sort map by value
+      // https://www.geeksforgeeks.org/sorting-a-map-by-value-in-c-stl/
       int pos[3];
       for (auto it = mp.begin(); it != mp.end(); it++) {
         if (
